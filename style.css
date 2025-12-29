@@ -1,0 +1,206 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-vazir {
+  font-family: 'Vazir', sans-serif;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Top Gradient Bar Animation */
+@keyframes pulse-gradient {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+.top-gradient-bar {
+  animation: pulse-gradient 3s ease-in-out infinite;
+}
+
+/* Navbar Glass Effect */
+.main-nav {
+  backdrop-filter: blur(15px) saturate(180%);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.main-nav:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  backdrop-filter: blur(20px) saturate(180%);
+}
+
+/* Footer Gradient */
+.footer {
+  background: linear-gradient(75deg, #ebf8fc, #b3e0ff);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 -9px 19px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature Cards Hover Effect */
+.feature-card {
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* Profile Cards Hover Effect */
+.profile-card {
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* Profile Picture Hover */
+.profile-pic {
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.profile-pic img {
+  transition: transform 0.3s ease;
+}
+
+/* CTA Button */
+.cta-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.cta-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.cta-button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Toast Notification */
+.toast {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade In Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.animate-fade-in-delay {
+  animation: fadeInUp 0.8s ease 0.2s forwards;
+  opacity: 0;
+}
+
+/* Contact Form Inputs */
+input:focus,
+textarea:focus {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .main-nav {
+    gap: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .feature-card,
+  .profile-card {
+    max-width: 100%;
+  }
+}
+
+/* Accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #067CC2;
+  outline-offset: 2px;
+}
+
+/* Loading State (Optional for future use) */
+.loading {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Print Styles */
+@media print {
+  .main-nav,
+  .top-gradient-bar,
+  .cta-button,
+  .toast {
+    display: none;
+  }
+  
+  body {
+    background: white;
+  }
+  
+  .profile-card,
+  .feature-card {
+    break-inside: avoid;
+  }
+}

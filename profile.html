@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MohamadReza | Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-br from-slate-50 via-slate-100 to-slate-200 text-gray-800 flex flex-col min-h-screen relative overflow-x-hidden">
+
+  <!-- Top Gradient Bar -->
+  <div class="fixed top-0 left-0 w-full h-2 bg-gradient-to-r from-[#04142A] via-[#067CC2] to-[#E4FF00] z-50 top-gradient-bar"></div>
+
+  <!-- Navbar -->
+  <nav class="main-nav fixed top-6 left-1/2 transform -translate-x-1/2 z-40 flex justify-center items-center gap-6 md:gap-12 px-8 py-4 rounded-full shadow-lg transition-all duration-300">
+    <a href="index.html" class="text-white hover:text-blue-400 font-semibold transition">Home</a>
+    <a href="profile.html" class="text-blue-400 font-semibold transition">Profile</a>
+    <a href="contact.html" class="text-white hover:text-blue-400 font-semibold transition">Contact</a>
+  </nav>
+
+  <!-- Main Profile Section -->
+  <main class="flex-1 flex flex-col justify-start items-center pt-32 md:pt-40 pb-16 text-center">
+
+    <!-- Profile Hero -->
+    <section class="flex flex-col items-center gap-6 mb-12 px-4 animate-fade-in">
+      <div class="profile-pic rounded-full border-4 border-white/40 shadow-xl overflow-hidden w-32 h-32 md:w-48 md:h-48">
+        <img src="images/myphoto.jpg" alt="Mohamad Reza Dalili" class="w-full h-full object-cover">
+      </div>
+      <h1 class="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-[#04142A] via-[#067CC2] to-[#359CB8] text-transparent bg-clip-text">
+        Mohamad Reza Dalili
+      </h1>
+      <p class="text-gray-600 text-md md:text-lg max-w-xl leading-relaxed">
+        Digital marketer, web developer, and creator of innovative digital experiences. Passionate about AI, design, and e-commerce.
+      </p>
+    </section>
+
+    <!-- Profile Info Cards -->
+    <section class="flex flex-col md:flex-row justify-center items-stretch gap-4 px-3 animate-fade-in-delay">
+
+      <!-- Skills -->
+      <div class="profile-card bg-white/60 backdrop-blur-xl rounded-2xl p-5 shadow-lg flex-1 max-w-xs text-left">
+        <h3 class="font-bold text-lg text-gray-800 mb-3 pb-2 border-b-2 border-blue-400">Skills</h3>
+        
+        <div class="space-y-3">
+          <div>
+            <h4 class="font-semibold text-sm text-gray-800 mb-1">Marketing & Digital Strategy</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">SEO, E-Commerce, Google Search Console, Google Analytics</p>
+          </div>
+          
+          <div>
+            <h4 class="font-semibold text-sm text-gray-800 mb-1">Software Development</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">Junior Software Engineer - HTML, CSS, JavaScript</p>
+          </div>
+          
+          <div>
+            <h4 class="font-semibold text-sm text-gray-800 mb-1">Interests</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">AI, Laravel, System Design, DevOps</p>
+          </div>
+          
+          <div>
+            <h4 class="font-semibold text-sm text-gray-800 mb-1">Tools</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">GitHub, Windsurf, WordPress, Figma, Canva</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <div class="profile-card bg-white/60 backdrop-blur-xl rounded-2xl p-5 shadow-lg flex-[2] max-w-2xl text-left">
+        <h3 class="font-bold text-lg text-gray-800 mb-3 pb-2 border-b-2 border-blue-400">Experience</h3>
+        
+        <ul class="space-y-2 text-gray-700 text-sm leading-relaxed">
+          <li class="flex items-start gap-2">
+            <span class="text-blue-500 mt-1">•</span>
+            <span>8 Years in marketing at <strong>Gosafir</strong> <span class="font-vazir">(موسسه زبان سفیر)</span></span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-blue-500 mt-1">•</span>
+            <span>2 Years as marketing strategist at <strong>BiNiCi</strong> <span class="font-vazir">(بازرگانی بی‌نی‌سی)</span></span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-blue-500 mt-1">•</span>
+            <span>2 Years in marketing research at <strong>Datis</strong> <span class="font-vazir">(پویش رایان داتیس)</span></span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-blue-500 mt-1">•</span>
+            <span>2 Years in digital marketing at <strong>CAN</strong> <span class="font-vazir">(لوازم خانگی کن)</span></span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-blue-500 mt-1">•</span>
+            <span>Marketing & e-commerce experience at <strong>Turbin Tahrir</strong> <span class="font-vazir">(توربین تحریر)</span></span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Links -->
+      <div class="profile-card bg-white/60 backdrop-blur-xl rounded-2xl p-5 shadow-lg flex-1 max-w-xs text-left">
+        <h3 class="font-bold text-lg text-gray-800 mb-3 pb-2 border-b-2 border-blue-400">Links</h3>
+        
+        <div class="space-y-2">
+          <a href="https://github.com/mmamadalili" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-blue-500 hover:text-blue-600 font-semibold transition">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1.01.07 1.54 1.04 1.54 1.04.9 1.54 2.36 1.1 2.94.84.09-.65.35-1.1.63-1.35-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.71.115 2.5.34 1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85 0 1.33-.01 2.41-.01 2.74 0 .26.18.58.69.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z"/>
+            </svg>
+            GitHub
+          </a>
+          
+          <a href="https://www.linkedin.com/in/mohamad-reza/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-blue-500 hover:text-blue-600 font-semibold transition">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4.98 3.5C4.98 4.6 4.1 5.5 3 5.5S1 4.6 1 3.5 1.9 1.5 3 1.5s1.98.9 1.98 2zM1.5 8h3v12h-3V8zm7.5 0h2.8v1.7h.04c.39-.7 1.35-1.45 2.78-1.45 2.98 0 3.54 1.96 3.54 4.5v7.25h-3v-6.4c0-1.53-.03-3.5-2.13-3.5-2.14 0-2.47 1.67-2.47 3.4v6.5h-3V8z"/>
+            </svg>
+            LinkedIn
+          </a>
+          
+          <a href="mailto:info@example.com" class="flex items-center gap-2 text-blue-500 hover:text-blue-600 font-semibold transition">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 8l9 6 9-6M3 8v10a2 2 0 002 2h14a2 2 0 002-2V8"/>
+            </svg>
+            Email
+          </a>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer text-center py-6 text-sm text-gray-500">
+    © <span id="year"></span> <strong class="text-gray-700">MohamadReza</strong> — Crafted with passion and precision.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
