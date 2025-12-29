@@ -174,8 +174,8 @@ This project is free to use for personal portfolios.
 ## 👤 Author
 
 **MohamadReza Dalili**
-- GitHub: [@mmamadalili](https://github.com/mmamadalili)
-- LinkedIn: [mohamad-reza](https://www.linkedin.com/in/mohamad-reza/)
+- GitHub: [@mamadalili](https://github.com/mamadalili)
+- LinkedIn: [Mohamad-Reza-Dalili](https://www.linkedin.com/in/mohamadreza-dalili/)
 
 ## 🙏 Acknowledgments
 
@@ -184,5 +184,6 @@ This project is free to use for personal portfolios.
 - Vazir Font for Persian support
 
 ---
+
 
 **Built with 💙 by MohamadReza** | Last Updated: 2025
