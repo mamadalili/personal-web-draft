@@ -35,7 +35,7 @@ portfolio/
 └── README.md          # This file
 ```
 
-## 🎨 Features
+## Features
 
 ### Design
 - **Glassmorphism UI**: Modern frosted glass effects with backdrop blur
@@ -51,7 +51,6 @@ portfolio/
 - **Smooth Scrolling**: Enhanced navigation experience
 - **Accessibility**: Keyboard navigation and focus states
 
-## 🚀 Getting Started
 
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, Edge)
@@ -69,7 +68,7 @@ portfolio/
 - JavaScript file (`script.js`) in root directory
 - Images in `images/` folder
 
-## 🎯 Pages Overview
+## Pages Overview
 
 ### Home Page (`index.html`)
 - Hero section with gradient title
@@ -89,7 +88,7 @@ portfolio/
 - Four contact method cards (LinkedIn, Email, Phone, GitHub)
 - Toast notifications for form submission
 
-## 🎨 Customization
+## Customization
 
 ### Colors
 Main color scheme defined in gradient:
@@ -97,40 +96,13 @@ Main color scheme defined in gradient:
 - Blue: `#067CC2`
 - Bright Yellow: `#E4FF00`
 
-To change colors, update these values in:
-- HTML gradient classes
-- CSS hover states
-- JavaScript (if needed)
 
 ### Fonts
 - **English**: Poppins (Google Fonts)
 - **Persian**: Vazir (FontCDN)
 
-### Content
-Update the following in HTML files:
-1. Your name in `<h1>` tags
-2. Bio/description in `<p>` tags
-3. Experience list in `profile.html`
-4. Social media links in navigation and contact page
-
 ## 🔧 Technical Details
 
-### Dependencies
-- **Tailwind CSS**: Via CDN (no compilation needed)
-- **Google Fonts**: Poppins font family
-- **Vazir Font**: Persian typography via CDN
-
-### Browser Compatibility
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-### Performance
-- Lightweight: ~50KB total (excluding images)
-- No external JavaScript libraries
-- CSS animations use GPU acceleration
-- Optimized with `backdrop-filter` for modern browsers
 
 ## 📝 Development Guide
 
@@ -156,20 +128,20 @@ Add custom CSS to `style.css` following the existing structure:
 3. Add JavaScript to `script.js`
 4. Test across all pages
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 - No data sent to external servers
 - Form submissions stored in browser memory only
 - No cookies or persistent storage
 - No tracking scripts
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - Mobile: < 640px
 - Tablet: 640px - 1024px
 - Desktop: > 1024px
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 This portfolio follows modern web design principles:
 1. **Minimalism**: Clean, uncluttered interface
@@ -215,3 +187,4 @@ This portfolio follows modern web design principles:
     </tr>
   </table>
 </div>
+
