@@ -1,5 +1,24 @@
-# MohamadReza Portfolio Website
+<div align="center">
 
+# MohamadReza Portfolio
+
+**A modern, glassmorphism-styled personal portfolio.** Built with pure HTML, Tailwind CSS, and Vanilla JavaScript.
+
+[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+</div>
+
+---
+
+## ✨ Key Features
+
+- **💎 Glassmorphism UI:** Modern frosted glass effects with smooth gradient animations.
+- **📱 Fully Responsive:** Mobile-first design that adapts to all screen sizes.
+- **⚡ Lightweight & Fast:** ~50KB total size. No build tools or external heavy libraries required.
+- **🌍 Bilingual Support:** English interface + Persian (RTL) Contact page with Vazir font.
+- **🔔 Interactive:** Custom toast notifications and form validation logic (No backend required).
 A modern, responsive personal portfolio website built with HTML, CSS (Tailwind), and JavaScript featuring glassmorphism design and smooth animations.
 
 ## 📁 Project Structure
@@ -159,31 +178,40 @@ This portfolio follows modern web design principles:
 4. **Accessibility**: Keyboard navigation and semantic HTML
 5. **Performance**: Optimized assets and animations
 
-## 🤝 Contributing
+<div align="center">
+  <h2>📬 Contact Me</h2>
+  <p>Interested in working together? Let's talk.</p>
 
-To improve this project:
-1. Test on different devices
-2. Report bugs or suggest features
-3. Optimize performance
-4. Enhance accessibility
-
-## 📄 License
-
-This project is free to use for personal portfolios.
-
-## 👤 Author
-
-**MohamadReza Dalili**
-- GitHub: [@mamadalili](https://github.com/mamadalili)
-- LinkedIn: [Mohamad-Reza-Dalili](https://www.linkedin.com/in/mohamadreza-dalili/)
-
-## 🙏 Acknowledgments
-
-- Tailwind CSS for utility classes
-- Google Fonts for typography
-- Vazir Font for Persian support
-
----
-
-
-**Built with 💙 by MohamadReza** | Last Updated: 2025
+  <table style="border: none; border-collapse: collapse;">
+    <tr>
+      <td style="padding: 10px;">
+        <a href="mailto:mohammadreza.dalili@live.com">
+          <img src="https://img.icons8.com/ios-filled/50/000000/email-open.png" width="25" style="vertical-align:middle;"/>
+        </a>
+      </td>
+      <td style="padding: 10px; text-align: left;">
+        <strong>Email:</strong> <a href="mailto:mohammadreza.dalili@live.com" style="text-decoration: none; color: #333;">mohammadreza.dalili@live.com</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">
+        <a href="https://www.linkedin.com/in/mohamadreza-dalili/">
+          <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" width="25" style="vertical-align:middle;"/>
+        </a>
+      </td>
+      <td style="padding: 10px; text-align: left;">
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mohamadreza-dalili/" target="_blank" style="text-decoration: none; color: #0077b5;">/in/mohamadreza-dalili</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">
+        <a href="https://mrdalili.com">
+          <img src="https://img.icons8.com/ios-filled/50/000000/globe.png" width="25" style="vertical-align:middle;"/>
+        </a>
+      </td>
+      <td style="padding: 10px; text-align: left;">
+        <strong>Portfolio:</strong> <a href="https://mrdalili.com" target="_blank" style="text-decoration: none; color: #333;">mrdalili.com</a>
+      </td>
+    </tr>
+  </table>
+</div>
