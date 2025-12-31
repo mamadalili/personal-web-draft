@@ -12,7 +12,7 @@
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **💎 Glassmorphism UI:** Modern frosted glass effects with smooth gradient animations.
 - **📱 Fully Responsive:** Mobile-first design that adapts to all screen sizes.
@@ -101,10 +101,8 @@ Main color scheme defined in gradient:
 - **English**: Poppins (Google Fonts)
 - **Persian**: Vazir (FontCDN)
 
-## 🔧 Technical Details
-
-
-## 📝 Development Guide
+## Technical Details
+## Development Guide
 
 ### Adding New Pages
 1. Copy structure from existing HTML file
@@ -187,4 +185,5 @@ This portfolio follows modern web design principles:
     </tr>
   </table>
 </div>
+
 
